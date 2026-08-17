@@ -1,13 +1,13 @@
 import type { AppInfo } from '@/types/app'
-export const APP_ID = `${process.env.NEXT_PUBLIC_APP_ID}`
-export const API_KEY = `${process.env.NEXT_PUBLIC_APP_KEY}`
-export const API_URL = `${process.env.NEXT_PUBLIC_API_URL}`
+export const APP_ID = `c3be0eaf-5980-4b00-ab73-5fdfcbd5b932`
+export const API_KEY = `app-3v0AeYOcatAspjMFjMi2Klnm`
+export const API_URL = `http://10.12.180.2/v1`
 export const APP_INFO: AppInfo = {
-  title: 'Chat APP',
-  description: '',
-  copyright: '',
+  title: '科睿合同审查助手',
+  description: '我可以审查合同、起草合同、答疑',
+  copyright: 'kvvit',
   privacy_policy: '',
-  default_language: 'en',
+  default_language: 'zh-Hans',
   disable_session_same_site: false, // set it to true if you want to embed the chatbot in an iframe
 }
 
